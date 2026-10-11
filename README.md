@@ -1,7 +1,7 @@
-# Activity (Fixed Filters)
+# Home Assistant Better Activity Logbook
 
-A custom Home Assistant Logbook integration that keeps Activity useful without
-changing the history you record.
+A custom Home Assistant Logbook integration that keeps Activity Logbook useful 
+without changing the history you record.
 
 An entity appears in the default Activity feed only when **both Recorder and
 Logbook allow it**. Keep motion history in Recorder while hiding it from Activity,
@@ -75,24 +75,12 @@ Home Assistant interfaces, so check project release notes before upgrading Core.
 
 ### HACS custom repository
 
-These instructions apply once the GitHub repository is published. Replace
-`YOUR_GITHUB_USERNAME/YOUR_REPOSITORY` with the project's repository.
-
 1. Open **HACS** in Home Assistant.
 2. Open the three-dot menu and select **Custom repositories**.
-3. Enter `https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY`.
+3. Enter `https://github.com/RafhaanShah/Home-Assistant-Better-Activity-Logbook/`.
 4. Select **Integration** as the repository type, then select **Add**.
-5. Find **Activity (Fixed Filters)** in HACS, open it, and download the integration.
+5. Find **Better Activity Logbook** in HACS, open it, and download the integration.
 6. Configure your Logbook filters as described below, then restart Home Assistant.
-7. Check **Settings → System → Logs** for:
-
-   ```text
-   Using a custom Logbook component with intersected Recorder and Logbook filters
-   ```
-
-HACS documents this process in its [custom repository guide](https://www.hacs.dev/docs/faq/custom_repositories/).
-This project is distributed through a custom repository: HACS does not accept
-core integration overrides into its [default catalog](https://www.hacs.dev/docs/publish/include/).
 
 No additional **Add integration** step is required. The component uses the
 existing `logbook:` YAML configuration.
@@ -100,11 +88,11 @@ existing `logbook:` YAML configuration.
 ### Manual installation
 
 1. Download the project from
-   [GitHub](https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY).
+   [GitHub](https://github.com/RafhaanShah/Home-Assistant-Better-Activity-Logbook/).
 2. Copy its `custom_components/logbook/` directory into your Home Assistant
    configuration directory, producing `/config/custom_components/logbook/`.
    If that directory already contains another Logbook override, back it up first.
-3. Configure your filters, restart Home Assistant, and check the startup warning.
+3. Configure your filters, restart Home Assistant.
 
 ## Configuration
 
