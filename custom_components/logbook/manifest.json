@@ -1,0 +1,9 @@
+{
+  "domain": "logbook",
+  "name": "Better Activity Logbook",
+  "version": "0.0.1",
+  "codeowners": ["@RafhaanShah"],
+  "dependencies": ["frontend", "http", "recorder"],
+  "documentation": "https://www.home-assistant.io/integrations/logbook/",
+  "integration_type": "system"
+}

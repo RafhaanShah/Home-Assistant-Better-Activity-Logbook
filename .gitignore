@@ -1,0 +1,12 @@
+# Prevent parent repo ignore rules from hiding component files
+!*
+!*/
+
+# Standard Python ignore rules
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.vscode/
+.idea/
+*.log
